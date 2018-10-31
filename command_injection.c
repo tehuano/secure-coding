@@ -12,5 +12,5 @@ int main(int argc, char *argv[]) {
     strncpy(command, cat, commandLength);
     strncat(command, argv[1],(commandLength - strlen(cat)) );
     system(command);
-	return 0;
+    return 0;
 }
